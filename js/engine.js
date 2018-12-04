@@ -166,7 +166,7 @@ var Engine = (function(global) {
     }
 
     function countScore(){
-        score.innerHTML = "Score" + ":" + " " + count;
+        score.innerHTML = "Score" + ":" + " " + player.count;
     }
 
     /* Go ahead and load all of the images we know we're going to need to
